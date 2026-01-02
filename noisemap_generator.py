@@ -1,6 +1,8 @@
 import numpy as np
 from PIL import Image
 
+# Generates a heightmap.png file of a given resolution and noise
+
 WIDTH = 512
 HEIGHT = 512
 NOISE_INTENSITY = 1.0  # 0.1 = very smooth, 2.0 = very rough
